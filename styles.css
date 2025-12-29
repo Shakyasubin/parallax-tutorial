@@ -91,4 +91,52 @@ nav ul li:hover {
 }
 
 /* <!-- Paragraph --> */
+
 /* <!-- Image --> */
+[class^="img"] {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  background: url(./assets/a.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img2 {
+  background: url(./assets/b.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img3 {
+  background: url(./assets/c.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img4 {
+  background: url(./assets/d.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  background: rgba(0, 0, 0, 0.616);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 4rem;
+}
